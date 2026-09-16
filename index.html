@@ -20,9 +20,37 @@
 .premium-footer{background:#061b2a;color:#b9cbd4;padding:45px 0 22px}.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:30px}.footer-grid img{width:105px}.premium-footer h4{color:#fff}.premium-footer a{display:block;color:#d9e6eb;text-decoration:none;margin:6px 0}.legal{border-top:1px solid rgba(255,255,255,.12);margin-top:28px;padding-top:18px;font-size:12px}
 @media(max-width:900px){.navlinks a:not(.pbtn){display:none}.hero-grid,.two{grid-template-columns:1fr}.hero-logo{order:-1}.hero-logo img{max-height:310px}.service-grid{grid-template-columns:repeat(2,1fr)}.quick .wrap{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.premium-top .wrap{justify-content:center}.premium-top span:first-child{display:none}.navin{height:74px}.navin img{width:72px;height:62px}.navlinks{gap:8px}.navlinks .pbtn{font-size:12px;padding:10px 13px}.hero-grid{min-height:auto;padding:35px 0 48px}.premium-hero h1{font-size:48px}.service-grid{grid-template-columns:1fr}.sec{padding:58px 0}.feature,.bigcta{padding:27px;border-radius:21px}.bigcta{display:block}.bigcta .pbtn{margin-top:20px}.footer-grid{grid-template-columns:1fr}}
+
+.theme-toggle{display:inline-flex;align-items:center;gap:5px;padding:4px;background:#edf2f5;border:1px solid var(--l);border-radius:999px;margin-left:4px}
+.theme-toggle button{border:0;background:transparent;color:var(--n);font:inherit;font-size:12px;font-weight:800;padding:7px 10px;border-radius:999px;cursor:pointer}
+.theme-toggle button.active{background:var(--n);color:#fff;box-shadow:0 3px 10px rgba(24,59,86,.18)}
+body.dark{background:#071a28;color:#dce7ec}
+body.dark .premium-nav{background:rgba(6,27,42,.96);border-bottom-color:#244052}
+body.dark .navlinks a{color:#e9f2f5}
+body.dark .theme-toggle{background:#102d40;border-color:#315065}
+body.dark .theme-toggle button{color:#dce7ec}
+body.dark .theme-toggle button.active{background:var(--t);color:#fff}
+body.dark .quick{background:#0b2333;border-bottom-color:#284252}
+body.dark .q{border-right-color:#284252}
+body.dark .q b{color:#f4f8fa}
+body.dark .q small{color:#9db0ba}
+body.dark .soft{background:#0b2232}
+body.dark .sec:not(.soft){background:#071a28}
+body.dark .sec-head h2,body.dark .copy h2{color:#f5f8fa}
+body.dark .sec-head p,body.dark .copy p{color:#aec0c9}
+body.dark .svc{background:#102a3b;border-color:#294657;box-shadow:none}
+body.dark .svc h3{color:#f4f8fa}
+body.dark .svc p{color:#b4c4cc}
+body.dark .icon{background:#123c45;color:#52d2cd}
+body.dark .areas span{background:#102a3b;border-color:#294657;color:#e7f0f3}
+@media(max-width:560px){.theme-toggle button{padding:7px 8px}.theme-toggle .theme-word{display:none}}
+
 </style></head><body>
 <div class="premium-top"><div class="wrap"><span>Mobile Notary • Phoenix & surrounding communities</span><span>Appointments available by request</span></div></div>
-<header class="premium-nav"><div class="wrap navin"><a href="/"><img src="/assets/logo.png" alt="AZ Seal the Deal Notary"></a><nav class="navlinks"><a href="/services">Services</a><a href="/service-areas">Service Areas</a><a href="/about">About</a><a href="/faq">FAQ</a><a class="pbtn gold" href="/contact">Request Appointment</a></nav></div></header>
+<header class="premium-nav"><div class="wrap navin"><a href="/"><img src="/assets/logo.png" alt="AZ Seal the Deal Notary"></a><nav class="navlinks"><a href="/services">Services</a><a href="/service-areas">Service Areas</a><a href="/about">About</a><a href="/faq">FAQ</a><div class="theme-toggle" role="group" aria-label="Color theme">
+<button type="button" id="lightMode" aria-label="Use light mode">☀ <span class="theme-word">Light</span></button>
+<button type="button" id="darkMode" aria-label="Use dark mode">☾ <span class="theme-word">Dark</span></button>
+</div><a class="pbtn gold" href="/contact">Request Appointment</a></nav></div></header>
 <main>
 <section class="premium-hero"><div class="wrap hero-grid"><div><span class="tag">Professional • Mobile • Convenient</span><h1>Your documents.<br><em>Our priority.</em></h1><p>Professional mobile notary service that comes to you. Request an appointment at your home, office, hospital, care facility or another approved meeting location.</p><div class="hero-actions"><a class="pbtn gold" href="/contact">Request an Appointment</a><a class="pbtn ghost" href="/services">Explore Services</a></div><div class="proof"><span>Mobile appointments</span><span>Clear communication</span><span>Professional service</span></div></div><div class="hero-logo"><img src="/assets/logo.png" alt="Seal the Deal Notary Arizona logo"></div></div></section>
 <section class="quick"><div class="wrap"><div class="q"><b>We Come to You</b><small>Convenient mobile service</small></div><div class="q"><b>Flexible Locations</b><small>Home, office & facilities</small></div><div class="q"><b>Simple Scheduling</b><small>Request online</small></div><div class="q"><b>Arizona Focused</b><small>Phoenix metro area</small></div></div></section>
@@ -41,4 +69,25 @@
 <section class="sec"><div class="wrap"><div class="bigcta"><div><h2>Ready to seal the deal?</h2><p>Request your mobile notary appointment online.</p></div><a class="pbtn gold" href="/contact">Request Appointment</a></div></div></section>
 </main>
 <footer class="premium-footer"><div class="wrap"><div class="footer-grid"><div><img src="/assets/logo.png" alt="AZ Seal the Deal Notary"><p>Professional mobile notary services across Phoenix and surrounding Arizona communities.</p></div><div><h4>Explore</h4><a href="/services">Services</a><a href="/service-areas">Service Areas</a><a href="/faq">FAQ</a></div><div><h4>Contact</h4><a href="/contact">Request Appointment</a><a href="/about">About</a></div></div><div class="legal">© 2026 AZ Seal the Deal Notary. Notary services do not include legal advice or document preparation.</div></div></footer>
+
+<script>
+(function(){
+  const body=document.body, light=document.getElementById('lightMode'), dark=document.getElementById('darkMode');
+  function applyTheme(theme){
+    const isDark=theme==='dark';
+    body.classList.toggle('dark',isDark);
+    light.classList.toggle('active',!isDark);
+    dark.classList.toggle('active',isDark);
+    light.setAttribute('aria-pressed',String(!isDark));
+    dark.setAttribute('aria-pressed',String(isDark));
+    localStorage.setItem('azstd-theme',theme);
+  }
+  const saved=localStorage.getItem('azstd-theme');
+  const initial=saved || (window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+  applyTheme(initial);
+  light.addEventListener('click',()=>applyTheme('light'));
+  dark.addEventListener('click',()=>applyTheme('dark'));
+})();
+</script>
+
 </body></html>
