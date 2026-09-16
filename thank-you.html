@@ -47,6 +47,18 @@ body.dark .content{background:#071a28}body.dark .content h2,body.dark .content h
 body.dark .form-premium{background:#102a3b;border-color:#294657}body.dark .form-premium label{color:#f1f6f8}body.dark .form-premium input,body.dark .form-premium select,body.dark .form-premium textarea{background:#0a2131;border-color:#385467;color:#eef5f7}
 .faq details{border:1px solid var(--l);border-radius:15px;padding:17px 20px;background:#fff;margin:11px 0}.faq summary{cursor:pointer;font-weight:850;color:var(--n)}body.dark .faq details{background:#102a3b;border-color:#294657}body.dark .faq summary{color:#f4f8fa}
 @media(max-width:800px){.content-grid,.service-list{grid-template-columns:1fr}.inner-hero{padding:52px 0}}
+
+/* Contrast guard: keep text readable on dark teal/navy components. */
+.feature, .bigcta { color:#fff; }
+.feature h1, .feature h2, .feature h3, .feature h4,
+.bigcta h1, .bigcta h2, .bigcta h3, .bigcta h4 { color:#fff; }
+.feature p, .feature li, .feature .check span,
+.bigcta p, .bigcta li { color:#e6f0f3; }
+.feature .tag, .bigcta .tag { color:#f1bf5c; }
+body.dark .feature h1, body.dark .feature h2, body.dark .feature h3, body.dark .feature h4,
+body.dark .bigcta h1, body.dark .bigcta h2, body.dark .bigcta h3, body.dark .bigcta h4 { color:#fff; }
+body.dark .feature p, body.dark .feature li, body.dark .feature .check span,
+body.dark .bigcta p, body.dark .bigcta li { color:#e6f0f3; }
 </style><link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
