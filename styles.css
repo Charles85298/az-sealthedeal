@@ -114,3 +114,7 @@ body.dark .testimonial-card blockquote{color:#eef5f7}
 body.dark .content .areas {
   background: transparent;
 }
+
+/* SEO accessibility updates */
+.premium-top a{color:inherit;text-decoration:underline;text-underline-offset:2px}.seo-contact-links a{color:inherit;text-decoration:underline}
+img{height:auto;max-width:100%}
