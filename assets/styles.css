@@ -115,3 +115,6 @@ body.dark .testimonial-card blockquote{color:#eef5f7}
 /* SEO accessibility updates */
 .premium-top a{color:inherit;text-decoration:underline;text-underline-offset:2px}.seo-contact-links a{color:inherit;text-decoration:underline}
 img{height:auto;max-width:100%}
+
+/* SEO content guides and resource footer */
+.seo-guide h3{margin:22px 0 8px}.seo-guide p{max-width:82ch;line-height:1.7}.premium-footer .seo-resource-footer a{display:block;margin:8px 0}.premium-footer .footer-grid{grid-template-columns:repeat(4,minmax(0,1fr))}@media(max-width:850px){.premium-footer .footer-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:520px){.premium-footer .footer-grid{grid-template-columns:1fr}}
